@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TIP-CALCULATOR</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+<h2 class="text-center bg-dark text-white mt-4 w-50 mx-auto">TIP-CALLCULATOR</h2>
+</header>
+<section class="border text-center w-50 mx-auto">
+<label for="name" class="mt-4">AMOUNT</label>
+<div>
+<input type="number" name="amount" id="amount" placeholder="Enter the amount..." > <span><button id="set-btn" class="btn btn-primary">SET</button></span>
+</div>  
+<div class="mt-4">
+Tip: <input id="slider" data-slider-id='ex1Slider' type="range" data-slider-min="0" data-slider-max=100" data-slider-step="1" data-slider-value="20"/>Value: <span id="tip"></span>
+</div>
+<div>
+<p class="mt-4">Tip Amount: <span id="tip-amount"></span></p>
+</div>
+<div>
+<p class="mt-4">Total Bill With Tip: <span id="total-bill"></span></p>
+</div>
+</section>
+<script src="tip-calculator.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html> 
